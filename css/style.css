@@ -10,8 +10,8 @@ nav .menu-principal{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
-    padding: 0 4em;
+    gap: 16px;
+    padding: 0 64px;
     background: #fff;    
 }
 
@@ -19,24 +19,41 @@ nav .menu-principal{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5em;   
+    gap: 24px;   
 }
 
 .izquierda{
-    padding-left: 3em;
+    padding-left: 48px;
+    display: flex;
+    gap: 8px;
 }
 
 .logo img{
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
 nav .izquierda .input{
-    background: #E2F5FA;
+    background: #eef3f8;
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-
+    gap: 8px;
+    border-radius: 6.5px;
 }
 
+nav .izquierda .input input{
+    width: 240px;
+    border: none;
+    background: transparent;
+}
+
+nav .izquierda .input input::placeholder{
+    font-size: 14px;
+    color: #283131;
+    font-weight: 100;
+}
+
+nav .izquierda .input{
+    font-size: 14px;    
+}
