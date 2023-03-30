@@ -3,4 +3,40 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #EBEBEB;
 }
+
+nav .menu-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding: 0 4em;
+    background: #fff;    
+}
+
+.izquierda, .derecha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;   
+}
+
+.izquierda{
+    padding-left: 3em;
+}
+
+.logo img{
+    font-size: 2.5rem;
+}
+
+nav .izquierda .input{
+    background: #E2F5FA;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
