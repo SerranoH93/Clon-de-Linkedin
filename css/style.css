@@ -4,7 +4,10 @@ body{
     padding: 0;
     box-sizing: border-box;
     background: #EBEBEB;
+    font-size: 13px;
 }
+
+/*Configuración parte izquirda del header*/
 
 nav .menu-principal{
     display: flex;
@@ -19,7 +22,7 @@ nav .menu-principal{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;   
+    gap: 32px;   
 }
 
 .izquierda{
@@ -56,4 +59,73 @@ nav .izquierda .input input::placeholder{
 
 nav .izquierda .input{
     font-size: 14px;    
+    color: grey;
 }
+
+/*Configuración parte derecha del header*/
+
+nav .derecha .inicio,
+nav .derecha .mi-red,
+nav .derecha .empleos,
+nav .derecha .mensajes,
+nav .derecha .notificaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+nav .derecha .productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .derecha .inicio img,
+nav .derecha .mi-red img,
+nav .derecha .empleos img,
+nav .derecha .mensajes img,
+nav .derecha .notificaciones img,
+nav .derecha .productos .img-productor{
+    font-size: 24px;    
+}
+
+nav .derecha .usuario .foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;        
+}
+
+nav .derecha .usuario h6,
+nav .derecha .productos h6{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+nav .derecha .usuario .flecha-abajo{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
+nav .derecha .productos .img-productor{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav .derecha .productos .flecha-abajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;      
+}
+
+nav .derecha a{
+    color: #915907;
+}
+
+
