@@ -83,6 +83,7 @@ nav .derecha .productos{
     justify-content: center;
     gap: 8px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 nav .derecha .inicio img,
@@ -118,6 +119,10 @@ nav .derecha .usuario .flecha-abajo{
     cursor: pointer;
 }
 
+nav .derecha .arreglo-de-flecha{
+    display: flex;
+}
+
 nav .derecha .productos .img-productor{
     display: flex;
     justify-content: center;
@@ -146,22 +151,22 @@ nav .derecha a{
     margin: 30px auto;
 }
 
-.barra-izquierda{
+.barra-izquierda .izq-arriba{
     background: #fff;
     width: 100%;
-    height: 900px;
+    height: 320px;
     position: relative;
     border-radius: 12px; 
     overflow: hidden;
 }
 
-.barra-izquierda .foto-portada{
+.barra-izquierda .izq-arriba .foto-portada{
     width: 100%;
     height: 60px;
     position: absolute;
 }
 
-.barra-izquierda .foto-perfil-barra{
+.barra-izquierda .izq-arriba .foto-perfil-barra{
     position: relative;
     left: 50%;
     transform:translate(-50%);
@@ -172,7 +177,7 @@ nav .derecha a{
     border: 2px solid white;    
 }
 
-.barra-izquierda .perfil{
+.barra-izquierda .izq-arriba .perfil{
     position: relative;
     text-align: center;
     top: 5%;
@@ -183,23 +188,23 @@ nav .derecha a{
     height: 60px;
 }
 
-.barra-izquierda .perfil a{
+.barra-izquierda .izq-arriba .perfil a{
     text-decoration: none;
     color: black;
 
 }
 
-.barra-izquierda .perfil a:hover{
+.barra-izquierda .izq-arriba .perfil a:hover{
     text-decoration: underline blueviolet;
 
 }
 
-.barra-izquierda .perfil small{
+.barra-izquierda .izq-arriba .perfil small{
     font-size: 11px;
     color: gray;
 }
 
-.barra-izquierda .barra-contactos{
+.barra-izquierda .izq-arriba .barra-contactos{
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -210,47 +215,48 @@ nav .derecha a{
     border-bottom: 1px solid #B9B9B9
 }
 
-.barra-izquierda .barra-contactos:hover{
+.barra-izquierda .izq-arriba .barra-contactos:hover{
     background: rgba(0, 0, 0, 0.1); 
 }
 
-.barra-izquierda .barra-contactos .contactos .numero-de-contactos{
+.barra-izquierda .izq-arriba .barra-contactos .contactos .numero-de-contactos{
     color: #0a66c2;    
 }
 
-.barra-izquierda .barra-contactos .contactos a{
+.barra-izquierda .izq-arriba .barra-contactos .contactos a{
     text-decoration: none;
     color: black;
 }
 
-.barra-izquierda .barra-contactos .contactos{
+.barra-izquierda .izq-arriba .barra-contactos .contactos{
     display: flex;    
     align-items: center;
     justify-content: space-between;  
 }
 
-.barra-izquierda .premium{
+.barra-izquierda .izq-arriba .premium{
     position: relative;
     top: 7%;    
     border-bottom: 1px solid #B9B9B9;
     padding-bottom: 8px;
 }
 
-.barra-izquierda .premium:hover{
+.barra-izquierda .izq-arriba .premium:hover{
     background: rgba(0, 0, 0, 0.1); 
     cursor: pointer;
 }
 
-.barra-izquierda .premium h6{
+.barra-izquierda .izq-arriba .premium h6{
     display: flex;
     gap: 8px;
     align-items: center;
     margin-left: 16px;
     color: rgba(0,0,0,0.6);
     font-weight: 100;
+    font-size: 11px;
 }
 
-.barra-izquierda .premium img{
+.barra-izquierda .izq-arriba .premium img{
     gap: 8px;
     width: 16px;
     height: 16px;
@@ -259,9 +265,46 @@ nav .derecha a{
     justify-content: space-between;
 }
 
-.barra-izquierda .premium a{   
+.barra-izquierda .izq-arriba .premium a{   
     align-items: center;        
     color: rgba(0,0,0,0.9);
+    font-size: 11px;
 }
 
+.barra-izquierda .izq-arriba .marcapaginas{
+    position: relative;
+    top: 8%;    
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
 
+.barra-izquierda .izq-arriba .marcapaginas:hover{
+    background: rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+}
+
+.barra-izquierda .izq-arriba .marcapaginas img{
+    gap: 8px;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barra-izquierda .izq-arriba .marcapaginas a{   
+    align-items: center;   
+    justify-content: space-between;     
+    color: rgba(0,0,0,0.9);
+    text-decoration: none;    
+}
+
+.barra-izquierda .izq-abajo{
+    background: #fff; 
+    width: 100%;
+    height: 320px;
+    margin-top: 16px;
+    position: relative;
+    border-radius: 12px; 
+    overflow: hidden;    
+}
