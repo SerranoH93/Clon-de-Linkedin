@@ -373,7 +373,7 @@ nav .derecha a{
 main .crear-publicacion{
     background: #fff;
     border-radius: 12px;
-    height: 150px;
+    height: 130px;
 }
 
 main .crear-publicacion .post{
@@ -400,6 +400,31 @@ main .crear-publicacion .post input:hover{
     background-color: rgba(0,0,0,0.1);
 }
 
+main .tipos-de-publicaciones{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center; 
+}
+
+main .tipos-de-publicaciones .foto,
+main .tipos-de-publicaciones .video,
+main .tipos-de-publicaciones .evento,
+main .tipos-de-publicaciones .articulo{
+    display: flex;
+    gap: 16px;
+    padding: 8px;
+    align-items: center;
+    cursor: pointer;   
+}
+
+main .tipos-de-publicaciones .foto:hover,
+main .tipos-de-publicaciones .video:hover,
+main .tipos-de-publicaciones .evento:hover,
+main .tipos-de-publicaciones .articulo:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
 
 
 
