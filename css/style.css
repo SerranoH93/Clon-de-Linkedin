@@ -145,7 +145,7 @@ nav .derecha a{
 
 .container{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 52% 28%;
     gap: 32px;
     width: 80%;
     margin: 30px auto;
@@ -191,12 +191,10 @@ nav .derecha a{
 .barra-izquierda .izq-arriba .perfil a{
     text-decoration: none;
     color: black;
-
 }
 
 .barra-izquierda .izq-arriba .perfil a:hover{
     text-decoration: underline blueviolet;
-
 }
 
 .barra-izquierda .izq-arriba .perfil small{
@@ -316,8 +314,7 @@ nav .derecha a{
     position: relative;
     padding-top: 24px;
     padding-left: 8px;
-    padding-right: 8px;
-       
+    padding-right: 8px;       
 }
 
 .barra-izquierda .izq-abajo .eventos{
@@ -369,6 +366,52 @@ nav .derecha a{
     color: rgba(0,0,0,0.6);
     font-size: 13px;
     font-weight: bolder;
+}
+
+/*Se empieza a configurar el main*/
+
+main .crear-publicacion{
+    background: #fff;
+    border-radius: 12px;
+    height: 150px;
+}
+
+main .crear-publicacion .post{
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+main .crear-publicacion .post img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+main .crear-publicacion .post input{
+    border-radius: 80px;
+    border: 1px solid #B9B9B9;
+    width: 100%;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+main .crear-publicacion .post input:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+/*Se configura el aside*/
+
+aside{
+    background: #fff;
+    border-radius: 12px;
+    height: 500px;
 }
 
 
