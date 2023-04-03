@@ -302,9 +302,75 @@ nav .derecha a{
 .barra-izquierda .izq-abajo{
     background: #fff; 
     width: 100%;
-    height: 320px;
+    height: 190px;
     margin-top: 16px;
     position: relative;
     border-radius: 12px; 
     overflow: hidden;    
 }
+
+.barra-izquierda .izq-abajo .grupos,
+.barra-izquierda .izq-abajo .eventos,
+.barra-izquierda .izq-abajo .hashtags{
+    display: flex;
+    position: relative;
+    padding-top: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+       
+}
+
+.barra-izquierda .izq-abajo .eventos{
+    display: flex;         
+    align-items: center;   
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.barra-izquierda .izq-abajo .eventos .eventos-caja{
+    display: flex;  
+    width: 100%;  
+    align-items: center;   
+    justify-content: space-between;     
+}
+
+.barra-izquierda .izq-abajo .eventos .eventos-caja img:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.barra-izquierda .izq-abajo .grupos a,
+.barra-izquierda .izq-abajo .eventos a,
+.barra-izquierda .izq-abajo .hashtags a{
+    text-decoration: none;
+    color: #0a66c2;
+}
+
+
+.barra-izquierda .izq-abajo .ver-mas{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 16px;         
+    align-items: center;   
+    justify-content: center;
+    border-top: 1px solid #B9B9B9    
+}
+
+.barra-izquierda .izq-abajo .ver-mas:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+
+.barra-izquierda .izq-abajo .ver-mas a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+
+
+
