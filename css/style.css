@@ -595,3 +595,21 @@ aside .der-medio .boton-seguir button{
     font-size: 20px;    
 }
 
+aside .footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 24px;    
+    height: 750px;
+    gap: 5px;       
+}
+
+.footer a{
+    display: flex;    
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0,0,0,0.6)
+    
+}
+
