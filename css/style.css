@@ -431,7 +431,7 @@ main .tipos-de-publicaciones .articulo:hover{
 aside{
     background: #fff;
     border-radius: 12px;
-    height: 500px;
+    height: 350px;
 }
 
 aside .barra-noticias{
@@ -439,19 +439,27 @@ aside .barra-noticias{
     justify-content: space-between;
     align-items: center;
     margin: 16px;
-
 }
 
 aside .barra-noticias h2{
     font-size: 18px;    
 }
 
+aside .barra-noticias img:hover{
+    cursor: pointer;
+}
+
 aside .noticias-recientes{
     margin: 16px 8px;
     padding-top: 2px;
     padding-bottom: 2px;
-
 }
+
+aside .noticias-recientes:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
 
 aside .noticias-recientes .uno{
     display: flex;
@@ -470,9 +478,120 @@ aside .noticias-recientes .dos{
     align-items: center;
     gap: 5px;
     margin-top: 5px;
-    color: rgba(0,0,0,0.6);;
+    color: rgba(0,0,0,0.6);
 }
+
 aside .noticias-recientes .dos img{
     width: 3px;
     height: 3px;
 }
+
+aside .mostrar-mas{
+    display: flex;
+    gap: 8px;    
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 32px;    
+    padding: 5px;
+}
+
+aside .mostrar-mas:hover{
+    background-color: rgba(0,0,0,0.1)    
+}
+
+aside .mostrar-mas h5{
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+aside .mostrar-mas img{
+    display: flex;
+    width: 16px;
+    height: 16px;
+}
+
+aside .der-medio{
+    display: flex;
+    width: 100%;
+    margin-top: 24px;
+    background: #fff;
+    border-radius: 12px;
+    height: 250px;
+    flex-direction: column;
+}
+
+aside .der-medio .anuncio{
+    display: flex;
+    justify-content: right;
+    margin-top: 8px;
+    width: 100%;
+    padding-right: 16px;  
+    margin-bottom: 16px;  
+}
+
+aside .der-medio .anuncio small{
+    display: flex;    
+    padding-right: 8px;
+    color: rgba(0,0,0,0.6);    
+}
+
+
+aside .der-medio .anuncio img{
+    display: flex;
+    padding-right: 16px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;   
+}
+
+aside .der-medio .seguir{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    color: rgba(0,0,0,0.6);     
+}
+
+aside .der-medio .imagenes-juntas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+aside .der-medio .imagenes-juntas img{
+    padding: 0 8px;
+    width: 64px;
+    height: 64px;
+}
+
+aside .der-medio .imagenes-juntas .img-perfil{
+    border-radius: 50%;
+}
+
+aside .der-medio .texto-compania{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;      
+}
+
+aside .der-medio .boton-seguir{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+
+}
+
+aside .der-medio .boton-seguir button{
+    display: flex;
+    color: #0A66C2;
+    border: 1px solid #0A66C2;
+    border-radius: 16px;  
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;    
+}
+
