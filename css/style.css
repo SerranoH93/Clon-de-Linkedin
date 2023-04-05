@@ -589,6 +589,21 @@ main .post-uno .acciones .accion-enviar img{
     padding-right: 8px;
 }
 
+.video-fedex{
+    width: 100%;
+}
+
+main .post-uno .pie-foto button{
+    display: flex;
+    color: #0A66C2;
+    border: 1px solid #0A66C2;
+    border-radius: 16px;  
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    padding: 4px 8px;   
+}
+
 /*Se configura el aside*/
 
 aside{    
